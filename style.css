@@ -1,0 +1,89 @@
+*{
+    margin:0px ;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+section{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+
+  .imgbox{
+    position: relative;
+    width: 40%;
+    height: 100%;
+}
+
+img{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content{
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.form{
+    width: 50%;
+}
+
+h2{
+    color: #607d8b;
+   font-weight: 200;
+   font-size: 1.2em;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+   /* border-bottom: 4px solid #ff4584; */
+}
+
+.inputbox{
+    margin-bottom: 10px;
+}
+
+span{
+    font-size: 20px;
+    /* margin-bottom: 15px; */
+    /* display: inline-block; */
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+input{
+    width: 100%;
+    padding: 5px 10px;
+    outline: none;
+    /* font-weight: 100; */
+    font-size: 20px;
+    letter-spacing: 2px;
+    background: transparent;
+    border-radius: 12px;
+}
+
+input[type="submit"]{
+    background-color: red;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 10px;
+    letter-spacing: 2px;
+    color: aliceblue;
+}
+
+.agreement{
+    color: #607d8b;
+    margin-bottom: 10px;
+    font-size: 14px;
+    /* font-weight: 400; */
+}
